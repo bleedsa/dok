@@ -7,4 +7,3 @@ opn:idxs["/**"];cls:idxs["*/"] / find opens, closes
 os: opn src;    cs: cls src    / opens, closes indexes
 
 inners:os{i+!(*y)-i:3+*x}'cs
-`0:`k src inners
