@@ -1,6 +1,6 @@
 / setup & util
 src:"/**h*/void a();/**what*/int b();"
-idxs:{[d;x]((!#d)+)'&*'1_{0<#*|x}{[d;x](q;i):x;(d~#[d]#i;1_i)}[d]\(0N;x)} / indexes of delim d
+idxs:{((!#x)+)'&(#x)(x~)':y} / indexes of delim d in x
 
 / destruct src
 opn:idxs["/**"];cls:idxs["*/"] / find opens, closes
